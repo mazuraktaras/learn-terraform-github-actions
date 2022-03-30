@@ -11,8 +11,9 @@ jobs:
     name: "Terraform"
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-      - run: ls -alh
+      - name: Tesy
+        run: ls -alh
+#      - name: Checkout
 #        uses: actions/checkout@v2
 
 #      - name: Setup Terraform
