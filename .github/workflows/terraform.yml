@@ -17,6 +17,7 @@ jobs:
 
       - run: ls -alh
       - run: echo "ECHO"
+      - run: echo ${{ secrets.TF_API_TOKEN }}
 
 #      - name: Setup Terraform
 #        uses: hashicorp/setup-terraform@v1
