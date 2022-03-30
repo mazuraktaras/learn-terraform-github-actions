@@ -16,6 +16,7 @@ jobs:
         uses: actions/checkout@v2
 
       - run: ls -alh
+      - run: echo "ECHO"
 
 #      - name: Setup Terraform
 #        uses: hashicorp/setup-terraform@v1
